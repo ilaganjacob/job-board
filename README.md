@@ -2,7 +2,7 @@
 
 A modern, high-performance job board built with Next.js, focused on connecting Toronto students with internship opportunities in the tech industry. The platform aggregates internship postings from multiple sources, providing a streamlined job search experience.
 
-[Live Demo](your-deployment-url) | [Creator's LinkedIn](https://linkedin.com/in/jacob-ilagan) | [Portfolio](your-portfolio-url)
+[Live Demo](your-deployment-url) | [Creator's LinkedIn](https://linkedin.com/in/jacob-ilagan)
 
 ![Project Screenshot](screenshot-url)
 
@@ -88,7 +88,6 @@ Jacob Ilagan
 
 - LinkedIn: [jacob-ilagan](https://linkedin.com/in/jacob-ilagan)
 - GitHub: [@ilaganjacob](https://github.com/ilaganjacob)
-- Portfolio: [Your Portfolio URL]
 
 ## License 📝
 
