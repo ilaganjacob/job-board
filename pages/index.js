@@ -46,7 +46,7 @@ export default function Home() {
       <main className="max-w-7xl mx-auto p-6">
         <div className="mb-8 space-y-4">
           <div className="relative">
-            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
+            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-black" />
             <input
               type="text"
               placeholder="Search jobs..."
