@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Search, Briefcase, MapPin, Calendar, Clock } from 'lucide-react';
+import React, { useState } from "react";
+import { Search, Briefcase, MapPin, Calendar, Clock } from "lucide-react";
 
 const jobs = [
   {
@@ -8,9 +8,10 @@ const jobs = [
     location: "Toronto, ON",
     date: "2024-12-10",
     type: "Full-time",
-    description: "Looking for a passionate software engineer intern to join our growing team...",
+    description:
+      "Looking for a passionate software engineer intern to join our growing team...",
     salary: "$40-50k/year",
-    skills: ["React", "Node.js", "TypeScript"]
+    skills: ["React", "Node.js", "TypeScript"],
   },
   {
     title: "Product Manager",
@@ -18,20 +19,22 @@ const jobs = [
     location: "Toronto, ON",
     date: "2024-12-08",
     type: "Part-time",
-    description: "Seeking a detail-oriented product manager intern to help shape our roadmap...",
+    description:
+      "Seeking a detail-oriented product manager intern to help shape our roadmap...",
     salary: "$35-45k/year",
-    skills: ["Agile", "User Research", "Data Analysis"]
-  }
+    skills: ["Agile", "User Research", "Data Analysis"],
+  },
 ];
 
 export default function Home() {
   const [searchTerm, setSearchTerm] = useState("");
   const [filter, setFilter] = useState("all");
 
-  const filteredJobs = jobs.filter(job => {
-    const matchesSearch = job.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                         job.company.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                         job.description.toLowerCase().includes(searchTerm.toLowerCase());
+  const filteredJobs = jobs.filter((job) => {
+    const matchesSearch =
+      job.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      job.company.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      job.description.toLowerCase().includes(searchTerm.toLowerCase());
     const matchesFilter = filter === "all" || job.type.toLowerCase() === filter;
     return matchesSearch && matchesFilter;
   });
@@ -40,7 +43,9 @@ export default function Home() {
     <div className="min-h-screen bg-gray-50 ">
       <header className="bg-blue-600 text-white p-6 shadow-lg flex flex-col justify-center items-center">
         <h1 className="text-4xl font-bold">Toronto Internship Job Board</h1>
-        <p className="mt-2 text-blue-100">Find your next tech internship opportunity</p>
+        <p className="mt-2 text-blue-100">
+          Find your next tech internship opportunity
+        </p>
       </header>
 
       <main className="max-w-7xl mx-auto p-6">
@@ -55,45 +60,69 @@ export default function Home() {
               onChange={(e) => setSearchTerm(e.target.value)}
             />
           </div>
-          
+
           <div className="flex gap-2">
             <button
               onClick={() => setFilter("all")}
-              className={`px-4 py-2 rounded-lg ${filter === "all" ? "bg-blue-600 text-white" : "bg-white text-gray-700 border"}`}
+              className={`px-4 py-2 rounded-lg ${
+                filter === "all"
+                  ? "bg-blue-600 text-white"
+                  : "bg-white text-gray-700 border"
+              }`}
             >
               All
             </button>
             <button
               onClick={() => setFilter("full-time")}
-              className={`px-4 py-2 rounded-lg ${filter === "full-time" ? "bg-blue-600 text-white" : "bg-white text-gray-700 border"}`}
+              className={`px-4 py-2 rounded-lg ${
+                filter === "full-time"
+                  ? "bg-blue-600 text-white"
+                  : "bg-white text-gray-700 border"
+              }`}
             >
               Full-time
             </button>
             <button
               onClick={() => setFilter("part-time")}
-              className={`px-4 py-2 rounded-lg ${filter === "part-time" ? "bg-blue-600 text-white" : "bg-white text-gray-700 border"}`}
+              className={`px-4 py-2 rounded-lg ${
+                filter === "part-time"
+                  ? "bg-blue-600 text-white"
+                  : "bg-white text-gray-700 border"
+              }`}
             >
               Part-time
             </button>
           </div>
         </div>
 
+        {/* Cards for the jobs */}
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {filteredJobs.map((job, index) => (
-            <div key={index} className="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow p-6 border border-gray-100">
+            <div
+              key={index}
+              className="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow p-6 border border-gray-100"
+            >
               <div className="flex justify-between items-start">
                 <div>
-                  <h2 className="text-xl font-semibold text-gray-900">{job.title}</h2>
+                  <h2 className="text-xl font-semibold text-gray-900">
+                    {job.title}
+                  </h2>
                   <p className="text-gray-600 mt-1">{job.company}</p>
                 </div>
-                <span className={`px-3 py-1 rounded-full text-sm ${
-                  job.type === "Full-time" ? "bg-green-100 text-green-800" : "bg-blue-100 text-blue-800"
-                }`}>
+                <span
+                  className={`px-3 py-1 rounded-full text-sm ${
+                    job.type === "Full-time"
+                      ? "bg-green-100 text-green-800"
+                      : "bg-blue-100 text-blue-800"
+                  }`}
+                >
                   {job.type}
                 </span>
               </div>
 
-              <p className="mt-4 text-gray-600 line-clamp-2">{job.description}</p>
+              <p className="mt-4 text-gray-600 line-clamp-2">
+                {job.description}
+              </p>
 
               <div className="mt-4 space-y-2">
                 <div className="flex items-center text-gray-500">
@@ -112,7 +141,10 @@ export default function Home() {
 
               <div className="mt-4 flex flex-wrap gap-2">
                 {job.skills.map((skill, i) => (
-                  <span key={i} className="px-2 py-1 bg-gray-100 rounded-md text-sm text-gray-600">
+                  <span
+                    key={i}
+                    className="px-2 py-1 bg-gray-100 rounded-md text-sm text-gray-600"
+                  >
                     {skill}
                   </span>
                 ))}
@@ -131,8 +163,18 @@ export default function Home() {
           <p>&copy; 2024 Toronto Internship Job Board</p>
           <div className="mt-2">
             Creator: Jacob Ilagan{" "}
-            <a href="https://linkedin.com/in/jacob-ilagan" className="underline hover:text-blue-200">LinkedIn</a>{" "}
-            <a href="https://github.com/ilaganjacob" className="underline hover:text-blue-200">Github</a>
+            <a
+              href="https://linkedin.com/in/jacob-ilagan"
+              className="underline hover:text-blue-200"
+            >
+              LinkedIn
+            </a>{" "}
+            <a
+              href="https://github.com/ilaganjacob"
+              className="underline hover:text-blue-200"
+            >
+              Github
+            </a>
           </div>
         </div>
       </footer>

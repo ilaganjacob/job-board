@@ -9,8 +9,8 @@
 ## Phase 2: Enhanced Frontend
 
 - [ ] Search Functionality
-  - [ ] Job title search
-  - [ ] Company search
+  - [x] Job title search
+  - [x] Company search
   - [ ] Location search
   - [ ] Description search
 - [ ] Filters
