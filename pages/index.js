@@ -76,22 +76,22 @@ export default function Home() {
           </div>
         </div>
 
+        
+
         {/* Job Cards Grid */}
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {filteredJobs.map((job) => (
-            <div
-              key={job.id}
-              className="bg-white rounded-lg shadow-md p-6 flex flex-col justify-between min-h-[280px]"
-            >
+            
+            <div key={job.id} className="bg-white rounded-lg shadow-md p-6">
               <div className="flex justify-between items-start">
-                <div className="flex-1 pr-4">
-                  <h2 className="text-xl font-semibold text-gray-900 truncate">
+                <div>
+                  <h2 className="text-xl font-semibold text-gray-900">
                     {job.title}
                   </h2>
                   <p className="text-gray-600">{job.company}</p>
                 </div>
                 <span
-                  className={`px-3 py-1 rounded-full text-sm flex-shrink-0 ${
+                  className={`px-3 py-1 rounded-full text-sm ${
                     job.type === "Full-time"
                       ? "bg-green-100 text-green-800"
                       : "bg-blue-100 text-blue-800"
@@ -135,59 +135,6 @@ export default function Home() {
                 Apply Now
               </button>
             </div>
-            // <div key={job.id} className="bg-white rounded-lg shadow-md p-6">
-            //   <div className="flex justify-between items-start">
-            //     <div>
-            //       <h2 className="text-xl font-semibold text-gray-900">
-            //         {job.title}
-            //       </h2>
-            //       <p className="text-gray-600">{job.company}</p>
-            //     </div>
-            //     <span
-            //       className={`px-3 py-1 rounded-full text-sm ${
-            //         job.type === "Full-time"
-            //           ? "bg-green-100 text-green-800"
-            //           : "bg-blue-100 text-blue-800"
-            //       }`}
-            //     >
-            //       {job.type}
-            //     </span>
-            //   </div>
-
-            //   <p className="mt-4 text-gray-600 line-clamp-3">
-            //     {job.description}
-            //   </p>
-
-            //   <div className="mt-4 space-y-2">
-            //     <div className="flex items-center text-gray-500">
-            //       <MapPin size={16} className="mr-2" />
-            //       {job.location}
-            //     </div>
-            //     <div className="flex items-center text-gray-500">
-            //       <Calendar size={16} className="mr-2" />
-            //       {new Date(job.date).toLocaleDateString()}
-            //     </div>
-            //     <div className="flex items-center text-gray-500">
-            //       <Briefcase size={16} className="mr-2" />
-            //       {job.salary}
-            //     </div>
-            //   </div>
-
-            //   <div className="mt-4 flex flex-wrap gap-2">
-            //     {job.skills.slice(0, 3).map((skill, index) => (
-            //       <span
-            //         key={index}
-            //         className="px-2 py-1 bg-gray-100 rounded text-sm text-gray-600"
-            //       >
-            //         {skill}
-            //       </span>
-            //     ))}
-            //   </div>
-
-            //   <button className="mt-6 w-full bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition-colors">
-            //     Apply Now
-            //   </button>
-            // </div>
           ))}
         </div>
       </main>
