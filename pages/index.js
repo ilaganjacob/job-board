@@ -34,7 +34,9 @@ export default function Home() {
     const matchesSearch =
       job.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
       job.company.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      job.description.toLowerCase().includes(searchTerm.toLowerCase());
+      job.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      job.location.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      job.type.toLowerCase().includes(searchTerm.toLowerCase());
     const matchesFilter = filter === "all" || job.type.toLowerCase() === filter;
     return matchesSearch && matchesFilter;
   });
