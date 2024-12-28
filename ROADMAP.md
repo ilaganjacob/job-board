@@ -8,14 +8,13 @@
 
 ## Phase 2: Enhanced Frontend
 
-- [ ] Search Functionality
+- [x] Search Functionality
   - [x] Job title search
   - [x] Company search
-  - [ ] Location search
-  - [ ] Description search
+  - [x] Location search
+  - [x] Description search
 - [ ] Filters
-  - [ ] Job type filter (Full-time/Part-time)
-  - [ ] Location filter
+  - [x] Job type filter (Full-time/Part-time)
   - [ ] Date posted filter
 - [ ] Sorting Options
   - [ ] Sort by date
