@@ -1,0 +1,204 @@
+{
+  "jobs": [
+    {
+      "id": "1",
+      "title": "Software Development Intern",
+      "company": "Shopify",
+      "location": "Toronto, ON",
+      "type": "Full-time",
+      "salary": "$45-55k/year",
+      "date": "2024-12-15",
+      "description": "Join Shopify's development team for a 4-month internship opportunity. You'll work on real features that impact millions of merchants worldwide. Strong foundation in web technologies required.",
+      "requirements": [
+        "Currently pursuing Computer Science or related degree",
+        "Experience with React, Ruby, or similar technologies",
+        "Strong problem-solving skills",
+        "Excellent communication abilities"
+      ],
+      "skills": ["React", "Ruby", "Git", "API Development"],
+      "companySize": "5000+ employees",
+      "remote": "Hybrid",
+      "applicationDeadline": "2025-01-15"
+    },
+    {
+      "id": "2",
+      "title": "Data Science Intern",
+      "company": "TD Bank",
+      "location": "Toronto, ON",
+      "type": "Full-time",
+      "salary": "$42-48k/year",
+      "date": "2024-12-14",
+      "description": "Work with our data science team to develop machine learning models for fraud detection and risk assessment. You'll gain hands-on experience with big data technologies and ML frameworks.",
+      "requirements": [
+        "Statistics or Data Science major",
+        "Experience with Python and SQL",
+        "Knowledge of machine learning concepts",
+        "Strong analytical skills"
+      ],
+      "skills": ["Python", "SQL", "Machine Learning", "Data Analysis"],
+      "companySize": "10000+ employees",
+      "remote": "On-site",
+      "applicationDeadline": "2025-01-20"
+    },
+    {
+      "id": "3",
+      "title": "UX Design Intern",
+      "company": "Wealthsimple",
+      "location": "Toronto, ON",
+      "type": "Part-time",
+      "salary": "$35-40k/year",
+      "date": "2024-12-13",
+      "description": "Help design the future of financial technology. Work closely with our product team to create intuitive user experiences for our investment platform.",
+      "requirements": [
+        "Design or HCI background",
+        "Proficiency in Figma",
+        "Understanding of user-centered design principles",
+        "Portfolio of previous work"
+      ],
+      "skills": ["Figma", "UI/UX", "Prototyping", "User Research"],
+      "companySize": "1000+ employees",
+      "remote": "Hybrid",
+      "applicationDeadline": "2025-01-10"
+    },
+    {
+      "id": "4",
+      "title": "Frontend Developer Intern",
+      "company": "Properly",
+      "location": "Toronto, ON",
+      "type": "Full-time",
+      "salary": "$40-45k/year",
+      "date": "2024-12-12",
+      "description": "Join our frontend team in building modern real estate technology. Work with React and Next.js to create responsive and accessible user interfaces.",
+      "requirements": [
+        "Web development experience",
+        "Knowledge of modern JavaScript",
+        "Understanding of responsive design",
+        "Experience with version control"
+      ],
+      "skills": ["React", "Next.js", "TypeScript", "CSS"],
+      "companySize": "500+ employees",
+      "remote": "Remote",
+      "applicationDeadline": "2025-01-25"
+    },
+    {
+      "id": "5",
+      "title": "DevOps Intern",
+      "company": "RBC",
+      "location": "Toronto, ON",
+      "type": "Full-time",
+      "salary": "$45-50k/year",
+      "date": "2024-12-11",
+      "description": "Support our DevOps team in maintaining and improving our cloud infrastructure. Learn about CI/CD pipelines, container orchestration, and infrastructure as code.",
+      "requirements": [
+        "Knowledge of Linux systems",
+        "Basic understanding of cloud platforms",
+        "Scripting experience",
+        "Interest in automation"
+      ],
+      "skills": ["AWS", "Docker", "Linux", "Python"],
+      "companySize": "10000+ employees",
+      "remote": "Hybrid",
+      "applicationDeadline": "2025-01-30"
+    },
+    {
+      "id": "6",
+      "title": "Product Management Intern",
+      "company": "Ritual",
+      "location": "Toronto, ON",
+      "type": "Full-time",
+      "salary": "$40-45k/year",
+      "date": "2024-12-10",
+      "description": "Work alongside our product team to shape the future of local commerce. Help define product requirements, conduct market research, and analyze user feedback.",
+      "requirements": [
+        "Strong analytical skills",
+        "Experience with data analysis",
+        "Excellent communication abilities",
+        "Interest in product development"
+      ],
+      "skills": ["Product Strategy", "Data Analysis", "User Stories", "Agile"],
+      "companySize": "500+ employees",
+      "remote": "On-site",
+      "applicationDeadline": "2025-01-15"
+    },
+    {
+      "id": "7",
+      "title": "Mobile Developer Intern",
+      "company": "Loblaw Digital",
+      "location": "Toronto, ON",
+      "type": "Full-time",
+      "salary": "$42-48k/year",
+      "date": "2024-12-09",
+      "description": "Join our mobile team in developing and maintaining our shopping and loyalty apps. Work with native and cross-platform technologies.",
+      "requirements": [
+        "Mobile development experience",
+        "Knowledge of iOS or Android",
+        "Understanding of mobile design principles",
+        "Problem-solving skills"
+      ],
+      "skills": ["React Native", "iOS", "Android", "Mobile Design"],
+      "companySize": "2000+ employees",
+      "remote": "Hybrid",
+      "applicationDeadline": "2025-01-20"
+    },
+    {
+      "id": "8",
+      "title": "QA Engineering Intern",
+      "company": "Top Hat",
+      "location": "Toronto, ON",
+      "type": "Part-time",
+      "salary": "$35-40k/year",
+      "date": "2024-12-08",
+      "description": "Help ensure the quality of our education platform through manual and automated testing. Learn about test automation frameworks and quality assurance processes.",
+      "requirements": [
+        "Basic programming knowledge",
+        "Attention to detail",
+        "Knowledge of testing methodologies",
+        "Good documentation skills"
+      ],
+      "skills": ["Selenium", "Jest", "TestRail", "Python"],
+      "companySize": "500+ employees",
+      "remote": "Remote",
+      "applicationDeadline": "2025-01-25"
+    },
+    {
+      "id": "9",
+      "title": "Business Analyst Intern",
+      "company": "CIBC",
+      "location": "Toronto, ON",
+      "type": "Full-time",
+      "salary": "$40-45k/year",
+      "date": "2024-12-07",
+      "description": "Support our technology teams by gathering requirements, documenting processes, and analyzing business needs. Help bridge the gap between business and technology.",
+      "requirements": [
+        "Business or Technology background",
+        "Strong analytical skills",
+        "Excel proficiency",
+        "Good presentation skills"
+      ],
+      "skills": ["SQL", "Excel", "Tableau", "Process Mapping"],
+      "companySize": "10000+ employees",
+      "remote": "On-site",
+      "applicationDeadline": "2025-01-30"
+    },
+    {
+      "id": "10",
+      "title": "Cybersecurity Intern",
+      "company": "Scotiabank",
+      "location": "Toronto, ON",
+      "type": "Full-time",
+      "salary": "$45-50k/year",
+      "date": "2024-12-06",
+      "description": "Join our security team in protecting digital assets and implementing security measures. Learn about threat detection, security protocols, and compliance requirements.",
+      "requirements": [
+        "Information Security background",
+        "Knowledge of network security",
+        "Understanding of security protocols",
+        "Programming experience"
+      ],
+      "skills": ["Security+", "Python", "Network Security", "Linux"],
+      "companySize": "10000+ employees",
+      "remote": "Hybrid",
+      "applicationDeadline": "2025-01-15"
+    }
+  ]
+}
