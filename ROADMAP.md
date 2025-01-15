@@ -1,114 +1,118 @@
-# Toronto Internship Job Board - Project Roadmap
+# Toronto Internship Job Board Roadmap
 
-## Phase 1: Core Structure ✓
+## Core Functionality
+
+### 1. Essential Features ✓
 
 - [x] Basic page layout
-- [x] Job card component design
-- [x] Initial static data structure
+- [x] Job card component
+- [x] Basic search functionality (title, company, location, description)
+- [x] Job type filter (Full-time/Part-time)
 
-## Phase 2: Enhanced Frontend
+### 2. Critical Next Steps
 
-- [x] Search Functionality
-  - [x] Job title search
-  - [x] Company search
-  - [x] Location search
-  - [x] Description search
-- [ ] Filters
-  - [x] Job type filter (Full-time/Part-time)
+- [ ] Core Filters & Sorting
   - [ ] Date posted filter
-- [ ] Sorting Options
   - [ ] Sort by date
-  - [ ] Sort by relevance
-- [ ] UI/UX Improvements
-  - [ ] Add loading states
-  - [ ] Implement error handling
-  - [ ] Add pagination or infinite scroll
-  - [ ] Optimize responsive design
+  - [ ] Simple pagination
+- [ ] Error handling
+- [ ] Loading states
 
-## Phase 3: Data Integration
+### 3. Data Foundation
 
 - [ ] Database Setup
-  - [ ] Set up PostgreSQL database
-  - [ ] Implement Prisma ORM
-  - [ ] Create database schema
-- [ ] Web Scraping Implementation
-  - [ ] Indeed scraper
-  - [ ] Data cleaning pipeline
-  - [ ] Scheduled scraping setup
-- [ ] API Development
-  - [ ] Create job listing endpoints
-  - [ ] Implement search endpoints
-  - [ ] Add filtering endpoints
+  - [ ] PostgreSQL + Prisma setup
+  - [ ] Basic job schema
+  - [ ] Database migrations
+- [ ] Initial Scraper
+  - [ ] Indeed scraper for Toronto internships
+  - [ ] Basic data cleaning pipeline
+  - [ ] Daily scraping automation
 
-## Phase 4: Search & Performance
+### 4. Core API
 
-- [ ] Search Optimization
-  - [ ] Implement search indexing
-  - [ ] Add job categories/tags
-  - [ ] Optimize search queries
-- [ ] Performance Improvements
-  - [ ] Add caching layer
-  - [ ] Implement rate limiting
-  - [ ] Data validation
-  - [ ] Query optimization
+- [ ] Essential Endpoints
+  - [ ] GET /api/jobs with filtering
+  - [ ] POST /api/jobs/search
+  - [ ] Error handling middleware
+  - [ ] Basic rate limiting
+- [ ] API Documentation
 
-## Phase 5: SEO & Analytics
+### 5. Critical UI/UX
 
-- [ ] SEO Implementation
-  - [ ] Add meta tags
-  - [ ] Create dynamic sitemap
-  - [ ] Implement job posting structured data
-  - [ ] Create robots.txt
-- [ ] Analytics Setup
-  - [ ] Set up Google Analytics
-  - [ ] Create analytics dashboard
-  - [ ] Track key metrics
+- [ ] Responsive Design
+  - [ ] Mobile-friendly layout
+  - [ ] Tablet optimization
+- [ ] Core SEO
+  - [ ] Title and meta description
+  - [ ] Basic sitemap
+  - [ ] robots.txt
 
-## Phase 6: Monetization & Growth
+## Nice-to-Have Features
 
-- [ ] Revenue Features
-  - [ ] Featured job listings
-  - [ ] Ad placement integration
-- [ ] Growth Features
-  - [ ] Newsletter subscription
-  - [ ] Email job alerts
-  - [ ] Social sharing integration
+### 1. Enhanced Search
 
-## Phase 7: Polish & Advanced Features
+- [ ] Search indexing
+- [ ] Job categories/tags
+- [ ] Advanced filters
+- [ ] Relevance-based sorting
+- [ ] Search suggestions
 
-- [ ] UI Enhancements
-  - [ ] Dark mode implementation
-  - [ ] Mobile responsiveness improvements
-  - [ ] PWA setup
-- [ ] Advanced Features
-  - [ ] Salary estimates
-  - [ ] Company profiles
-  - [ ] Job recommendations
-  - [ ] Email notifications
+### 2. Performance Optimizations
 
-## Documentation & Portfolio
+- [ ] Caching layer
+- [ ] Advanced rate limiting
+- [ ] Query optimization
+- [ ] Infinite scroll
+- [ ] Image optimization
 
-- [ ] Technical Documentation
-  - [ ] API documentation
-  - [ ] Setup instructions
-  - [ ] Contributing guidelines
-- [ ] Portfolio Materials
-  - [ ] Create demo video
-  - [ ] Write case study
-  - [ ] Document technical decisions
-  - [ ] Performance metrics report
+### 3. Growth Features
 
-## Testing & Deployment
+- [ ] Newsletter subscription
+- [ ] Email job alerts
+- [ ] Social sharing
+- [ ] Featured listings
+- [ ] Save jobs functionality
 
-- [ ] Testing
-  - [ ] Unit tests
-  - [ ] Integration tests
-  - [ ] Performance tests
-- [ ] CI/CD
-  - [ ] Set up GitHub Actions
-  - [ ] Automated testing
-  - [ ] Automated deployment
+### 4. Advanced Features
+
+- [ ] Dark mode
+- [ ] PWA setup
+- [ ] Salary estimates
+- [ ] Company profiles
+- [ ] Job recommendations
+- [ ] Application tracking
+
+### 5. Analytics & Monitoring
+
+- [ ] Google Analytics
+- [ ] Performance monitoring
+- [ ] User behavior tracking
+- [ ] Custom analytics dashboard
+- [ ] A/B testing capability
+
+## Testing Strategy
+
+- [ ] Unit Tests
+  - [ ] Component tests
+  - [ ] API endpoint tests
+  - [ ] Utility function tests
+- [ ] Integration Tests
+  - [ ] API integration tests
+  - [ ] Database integration tests
+- [ ] E2E Tests
+  - [ ] Critical user flows
+  - [ ] Cross-browser testing
+
+## Documentation
+
+- [ ] Setup Guide
+- [ ] API Documentation
+- [ ] Contributing Guidelines
+- [ ] Architecture Overview
 
 ---
 
-Last updated: December 2024
+Note: Features marked with ✓ are completed. This roadmap focuses on delivering core functionality first, with additional features implemented based on user feedback and needs.
+
+Last Updated: January 2025
