@@ -2,7 +2,7 @@
 
 A modern, high-performance job board built with Next.js, focused on connecting Toronto students with internship opportunities in the tech industry. The platform aggregates internship postings from multiple sources, providing a streamlined job search experience.
 
-[Live Demo](your-deployment-url) | [Creator's LinkedIn](https://linkedin.com/in/jacob-ilagan)
+[Live Demo](https://job-board-tau-kohl.vercel.app/) | [Creator's LinkedIn](https://linkedin.com/in/jacob-ilagan)
 
 ## Key Features 💡
 
