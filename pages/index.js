@@ -8,6 +8,10 @@ export default function Home() {
   const [typeFilter, setTypeFilter] = useState("all");
 
   // Filter jobs based on search term and job type
+  /**
+   * Right now, this filtering logic allows me to check the job title, description, and company for the search term.
+   * It compares a boolean where it checks if the 
+   */
   const filteredJobs = jobsData.jobs.filter((job) => {
     const matchesSearch =
       job.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -23,7 +27,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gray-100">
-      <header className="bg-blue-500 text-white p-6">
+      <header className="bg-blue-500 text-white p-6 text-center">
         <h1 className="text-3xl font-bold">Toronto Internship Job Board</h1>
         <p className="mt-2">Find your next tech internship opportunity</p>
       </header>
