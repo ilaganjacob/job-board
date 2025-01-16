@@ -84,16 +84,16 @@ export default function Home() {
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {filteredJobs.map((job) => (
             
-            <div key={job.id} className="bg-white rounded-lg shadow-md p-6">
-              <div className="flex justify-between items-start">
-                <div>
-                  <h2 className="text-xl font-semibold text-gray-900">
+            <div key={job.id} className="bg-white rounded-lg shadow-md p-6 flex flex-col">
+              <div className="flex justify-between items-start mb-4">
+                <div className="flex-grow">
+                  <h2 className="text-xl font-semibold text-gray-900 line-clamp-2 min-h-[3.5rem]">
                     {job.title}
                   </h2>
                   <p className="text-gray-600">{job.company}</p>
                 </div>
                 <span
-                  className={`px-3 py-1 rounded-full text-sm ${
+                  className={`px-3 py-1 rounded-full text-sm ml-2 flex-shrink-0 ${
                     job.type === "Full-time"
                       ? "bg-green-100 text-green-800"
                       : "bg-blue-100 text-blue-800"
