@@ -4,8 +4,6 @@ A modern, high-performance job board built with Next.js, focused on connecting T
 
 [Live Demo](your-deployment-url) | [Creator's LinkedIn](https://linkedin.com/in/jacob-ilagan)
 
-![Project Screenshot](screenshot-url)
-
 ## Key Features 💡
 
 - **Real-time Job Aggregation**: Automated scraping and aggregation of internship opportunities from multiple job platforms
