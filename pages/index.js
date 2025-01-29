@@ -12,6 +12,17 @@ export default function Home() {
    * Right now, this filtering logic allows me to check the job title, description, and company for the search term.
    * It compares a boolean where it checks if the 
    */
+
+  /**
+   * 1. Calculate the current date
+   * 2. Compare each job's date to the current date
+   * 3. Calculate the 'age' of each job (current date - job.date)
+   * 4. Filter based on different time ranges (24h, 1 week, 1 month)
+   * 
+   * How do i represent time ranges?
+   * How do I calculate dates and differences between dates?
+   * 
+   */
   const filteredJobs = jobsData.jobs.filter((job) => {
     const matchesSearch =
       job.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
