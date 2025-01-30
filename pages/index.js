@@ -21,8 +21,9 @@ export default function Home() {
    * 
    * How do i represent time ranges?
    * How do I calculate dates and differences between dates?
-   * 
+   * Not sure yet
    */
+  
   const filteredJobs = jobsData.jobs.filter((job) => {
     const matchesSearch =
       job.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
